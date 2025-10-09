@@ -1,0 +1,19 @@
+{
+  "name": "my-ci-sample",
+  "version": "1.0.0",
+  "description": "Sample project for CI/CD practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
