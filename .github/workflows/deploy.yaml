@@ -23,3 +23,10 @@ jobs:
         run: npm ci
       - name: Run tests
         run: npm test
+      - name: Merge updates from upstream 'main' branch
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+          git remote add upstream https://github.com/original-owner/repo.git
+          git fetch upstream
+          git merge upstream/main
