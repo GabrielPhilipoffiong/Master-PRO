@@ -48,4 +48,4 @@ jobs:
         with:
           name: build
           path: build/
-          retention-days: 7
+          retention-days: 5
